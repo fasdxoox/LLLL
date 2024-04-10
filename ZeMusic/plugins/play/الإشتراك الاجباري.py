@@ -1,10 +1,9 @@
-"""
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 from ZeMusic import app
 
-Muntazer ="EF_19"
+Muntazer ="QQQ_Q50"
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
     if not Muntazer:
@@ -23,7 +22,7 @@ async def must_join_channel(app: Client, msg: Message):
                     f"~︙عزيزي {msg.from_user.mention} \n~︙عليك الأشتراك في قناة البوت \n~︙قناة البوت : @{Muntazer}.",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("< 𝙺𝙸𝙽𝙶 >", url=link)]
+                        [InlineKeyboardButton("𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚", url=link)]
                     ])
                 )
                 await msg.stop_propagation()
@@ -31,4 +30,3 @@ async def must_join_channel(app: Client, msg: Message):
                 pass
     except ChatAdminRequired:
         print(f"I m not admin in the MUST_JOIN chat {Muntazer}!")
-"""
