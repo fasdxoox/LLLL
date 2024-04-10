@@ -28,7 +28,7 @@ async def zzzback(_, query: CallbackQuery):
                         "• اوامــر المطــور •", callback_data="zzzdv"),
                 ],[
                     InlineKeyboardButton(
-                        "•✯ 『 𝙺𝙸𝙽𝙶 𝙼𝚄𝚂𝙸𝙲 』 ✯•", url="https://t.me/EF_19"),
+                        "• 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚 •", url="https://t.me/yut70"),
                 ],
             ]
         ),
