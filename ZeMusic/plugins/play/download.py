@@ -19,7 +19,7 @@ def remove_if_exists(path):
         os.remove(path)
 
 
-@app.on_message(command(["/song", "تنزيل", "تحميل","بحث"]))
+@app.on_message(command(["/song", "بحث"]))
 async def song_downloader(client, message: Message):
     query = " ".join(message.command[1:])
     m = await message.reply_text("<b>⇜ جـارِ البحث عـن المقطـع الصـوتـي . . .</b>")
@@ -70,7 +70,7 @@ async def song_downloader(client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "‹ السورس ›", url=f"https://t.me/EF_19"),
+                        "𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚", url=f"https://t.me/yut70"),
                 ],
 
             ]
