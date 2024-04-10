@@ -15,12 +15,12 @@
     ],
     "env": {
       "API_ID": {
-        "description": "اتركه كما هو.",
+        "description": "ضع هنا ايبي ايدي او اتركه كما هو.",
         "value": "20036317",
         "required": true
       },
       "API_HASH": {
-        "description": "اتركه كما هو.",
+        "description": "ضع هنا ايبي هاش او اتركه كما هو.",
         "value": "986cb4ba434870a62fe96da3b5f6d411",
         "required": true
       },
@@ -31,16 +31,16 @@
       },
       "START_IMG_URL": {
         "description": "رابط صوره start او اتركه كما هو.",
-        "value": "https://graph.org/file/0a245a2dda22cc6b855ed.jpg",
+        "value": "https://graph.org/file/c4e9f7a88b3c48be375a8.jpg",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "لا تغيره. او قم بانشاء قاعده البيانات. الشرح https://t.me/EF_19/2.",
-        "value": "mongodb+srv://abood:king@cluster0.rbp1cqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "description": "قم بانشاء قاعده البيانات. الشرح https://t.me/EF_19/2.",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
-        "description": "ايدي المستخدم الذي ترغب في إضافته كمالك البوت",
+        "description": "ايدي المستخدم الذي ترغب في إضافته كـ مطور البوت",
         "value": "",
         "required": true
       },
