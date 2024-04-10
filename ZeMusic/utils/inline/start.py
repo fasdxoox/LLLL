@@ -15,7 +15,7 @@ def start_panel(_):
         [InlineKeyboardButton(text="⌯ الأوامر ⌯", callback_data="zzzback")],
         [
             InlineKeyboardButton(text="⌯ المطور ⌯", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="⌯ 𝙺𝙸𝙽𝙶 𝚂𝚄𝙾𝚁𝙲𝙴 ⌯", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="⌯ 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚 ⌯", url=config.SUPPORT_CHANNEL),
         ],
     ]
     return buttons
@@ -32,7 +32,7 @@ def private_panel(_):
         [InlineKeyboardButton(text="⌯ الأوامر ⌯", callback_data="zzzback")],
         [
             InlineKeyboardButton(text="⌯ المطور ⌯", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="⌯ 𝙺𝙸𝙽𝙶 𝚂𝚄𝙾𝚁𝙲𝙴 ⌯", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="⌯ 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚 ⌯", url=config.SUPPORT_CHANNEL),
         ],
     ]
     return buttons
