@@ -10,7 +10,7 @@ from ZeMusic import app
 from config import OWNER_ID, LOGGER_ID
 
 
-@app.on_message(command(["مطور", "", "المطور"]))
+@app.on_message(command(["مطور", "المطور"]))
 async def devid(client: Client, message: Message):
     usr = await client.get_users(OWNER_ID)
     name = usr.first_name
@@ -27,7 +27,7 @@ async def devid(client: Client, message: Message):
                     InlineKeyboardButton(name, url=f"tg://user?id={uid}"),
                 ],[
                     InlineKeyboardButton(
-                        "•✯  السورس  ✯•", url="https://t.me/EF_19"),
+                        "• 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚 •", url="https://t.me/yut70"),
                 ],
             ]
         ),
