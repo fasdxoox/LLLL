@@ -16,7 +16,7 @@ from random import  choice, randint
 #          
                 
 @app.on_message(
-  command(["مطور اساسي","مطور السورس","مبرمج السورس","المطور الاساسي", "مطور ثانوي", "المطور الثانوي"])
+  command(["المبرمج","مبرمج السورس"])
 )
 async def huhh(client: Client, message: Message):
     dev_id = config.OWNER_ID
