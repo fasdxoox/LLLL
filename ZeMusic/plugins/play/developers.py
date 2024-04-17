@@ -16,14 +16,14 @@ from random import  choice, randint
 #          
                 
 @app.on_message(
-  command(["المبرمج","مبرمج السورس"])
+  command(["المبرمج","مبرمج السورس","مبرمج"])
 )
 async def huhh(client: Client, message: Message):
-    dev_id = config.OWNER_ID
+    dev_id = 5145609515
     dev = await client.get_users(dev_id)
     name = dev.first_name
     usrnam = dev.username
-    bio = dev.bio
+    
     await app.download_media(dev.photo.big_file_id, file_name=os.path.join("downloads", "developer.jpg"))
    
     await message.reply_photo(
