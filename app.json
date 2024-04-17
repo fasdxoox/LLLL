@@ -1,7 +1,7 @@
 {
     "name": "『 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚 』",
     "description": "〔 سـورس 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚 𖤍 \n افضـل سـورس لتشغيل الصوتيات في المكالمه  › تحديثـات متواصله › 〔 حصريـاً 〕\n - مطـور السـورس : 𝙰𝙱𝙳𝚄𝙻𝙻𝙰𝙷",
-    "logo": "https://graph.org/file/a0a8e826e04b0a5a0246e.jpg",
+    "logo": "https://telegra.ph/file/730915b75a10e6baf5cef.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -31,7 +31,7 @@
       },
       "START_IMG_URL": {
         "description": "رابط صوره start او اتركه كما هو.",
-        "value": "https://graph.org/file/c4e9f7a88b3c48be375a8.jpg",
+        "value": "https://telegra.ph/file/730915b75a10e6baf5cef.jpg",
         "required": true
       },
       "MONGO_DB_URI": {
