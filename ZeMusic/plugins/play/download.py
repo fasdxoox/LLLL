@@ -10,7 +10,7 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message, InputTextMessageContent, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 from youtube_search import YoutubeSearch
-
+import config
 from ZeMusic import app
 from ZeMusic.plugins.play.filters import command
 
@@ -51,7 +51,7 @@ async def song_downloader(client, message: Message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"𖡃 ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ \n@{app.username} "
+        rep = f"𖡃 @{app.username} "
         host = str(info_dict["uploader"])
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
@@ -70,7 +70,7 @@ async def song_downloader(client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚", url=f"https://t.me/yut70"),
+                        text=config.CHANNEL_NAME, url=config.CHANNEL_LINK),
                 ],
 
             ]
