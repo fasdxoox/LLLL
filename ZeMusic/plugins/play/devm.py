@@ -8,7 +8,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from pyrogram.errors import MessageNotModified
 from ZeMusic import app
 from config import OWNER_ID, LOGGER_ID
-
+import config
 
 @app.on_message(command(["مطور", "المطور"]))
 async def devid(client: Client, message: Message):
@@ -27,7 +27,7 @@ async def devid(client: Client, message: Message):
                     InlineKeyboardButton(name, url=f"tg://user?id={uid}"),
                 ],[
                     InlineKeyboardButton(
-                        "• 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚 •", url="https://t.me/yut70"),
+                        text=config.CHANNEL_NAME, url=config.CHANNEL_LINK),
                 ],
             ]
         ),
