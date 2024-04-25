@@ -1,5 +1,5 @@
 import math
-
+import config
 from ZeMusic import app 
 
 from pyrogram.types import InlineKeyboardButton
@@ -67,7 +67,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],[
-            InlineKeyboardButton(text="𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚", url=f"https://t.me/yut70")],
+            InlineKeyboardButton(text=config.CHANNEL_NAME, url=config.CHANNEL_LINK)],
     ]
     return buttons
 
@@ -81,7 +81,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],[
-            InlineKeyboardButton(text="𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚", url=f"https://t.me/yut70")],
+            InlineKeyboardButton(text=config.CHANNEL_NAME, url=config.CHANNEL_LINK)],
     ]
     return buttons
 
