@@ -8,7 +8,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from pyrogram.errors import MessageNotModified
 from ZeMusic import app
 from config import OWNER_ID, LOGGER_ID, START_IMG_URL
-
+import config
 
 @app.on_message(command(["ميوزك", "الميوزك", "الاوامر"]))
 async def zdatsr(client: Client, message: Message):
@@ -33,7 +33,7 @@ async def zdatsr(client: Client, message: Message):
                         "• اوامــر المطــور •", callback_data="zzzdv"),
                 ],[
                     InlineKeyboardButton(
-                        "• 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚 •", url="https://t.me/yut70"),
+                        text=config.CHANNEL_NAME, url=config.CHANNEL_LINK),
                 ],
             ]
         ),
