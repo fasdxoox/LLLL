@@ -14,7 +14,7 @@ def start_panel(_):
         ],
         [InlineKeyboardButton(text="الأوامر", callback_data="zzzback")],
         [
-            InlineKeyboardButton(text="❪🎖𝑫𝒆ꪜ ❫", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="❪🎖𝑫𝒆𝒗 ❫", user_id=config.OWNER_ID),
             InlineKeyboardButton(text=config.CHANNEL_NAME, url=config.CHANNEL_LINK),
         ],
     ]
@@ -31,7 +31,7 @@ def private_panel(_):
         ],
         [InlineKeyboardButton(text="الأوامر", callback_data="zzzback")],
         [
-            InlineKeyboardButton(text="❪🎖𝑫𝒆ꪜ ❫", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="❪🎖𝑫𝒆𝒗 ❫", user_id=config.OWNER_ID),
             InlineKeyboardButton(text=config.CHANNEL_NAME, url=config.CHANNEL_LINK),
         ],
     ]
