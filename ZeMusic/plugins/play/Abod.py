@@ -1,4 +1,4 @@
-"""import config
+import config
 import asyncio
 
 import os
@@ -156,4 +156,3 @@ async def ihd(client: Client, message: Message):
         )
     )
 
-"""
