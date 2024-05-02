@@ -1,4 +1,4 @@
-"""import asyncio
+import asyncio
 from pyrogram import Client, filters
 from strings.filters import command
 from ZeMusic.utils.decorators import AdminActual
@@ -102,4 +102,4 @@ async def down(client, message):
         #),
         #disable_web_page_preview=True
     #)
-"""
+
