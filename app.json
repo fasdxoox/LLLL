@@ -34,16 +34,6 @@
         "value": "https://telegra.ph/file/730915b75a10e6baf5cef.jpg",
         "required": true
       },
-      "CHANNEL_NAME": {
-        "description": "اسم قناتك.",
-        "value": "",
-        "required": true
-      },
-      "CHANNEL_LINK": {
-        "description": "رابط قناتك.",
-        "value": "https://t.me/",
-        "required": true
-      },
       "OWNER_ID": {
         "description": "ايدي المستخدم الذي ترغب في إضافته كـ مطور البوت",
         "value": "",
