@@ -11,8 +11,9 @@ from strings.filters import command
 from ZeMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
 from ZeMusic import app
 from random import  choice, randint
+
 nem = config.CHANNEL_NAME
-che = config.CHANNEL_LINKl
+che = https://t.me/ +config.CHANNEL_LINKl
                 
 @app.on_message(
     command(["سورس","السورس"])
