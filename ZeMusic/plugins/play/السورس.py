@@ -19,7 +19,7 @@ che = config.CHANNEL_LINKl
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/730915b75a10e6baf5cef.jpg",
+        photo=f"https://telegra.ph/file/e8a2d9d266a52c1b2ca4f.jpg",
         caption = f"""<b>⌯ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 . .<b>\n<a href='{che}'>⌯ {nem}</a></b>""",
 reply_markup=InlineKeyboardMarkup(
             [
