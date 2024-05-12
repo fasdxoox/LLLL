@@ -11,9 +11,6 @@ from strings.filters import command
 from ZeMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
 from ZeMusic import app
 from random import  choice, randint
-
-nem = config.CHANNEL_NAME
-che = https://t.me/ +config.CHANNEL_LINKl
                 
 @app.on_message(
     command(["سورس","السورس"])
@@ -21,12 +18,12 @@ che = https://t.me/ +config.CHANNEL_LINKl
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/e8a2d9d266a52c1b2ca4f.jpg",
-        caption = f"""<b>⌯ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 . .<b>\n<a href='{che}'>⌯ {nem}</a></b>""",
+        caption = f"""<b>⌯ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 . .<b>\n<a href='{config.CHANNEL_LINK}'>⌯ {config.CHANNEL_NAME}</a></b>""",
 reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text=nem, url=che),         
+                        text=config.CHANNEL_NAME, url=config.CHANNEL_LINK),         
                 ],
 
             ]
