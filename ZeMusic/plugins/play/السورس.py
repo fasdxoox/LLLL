@@ -24,7 +24,7 @@ reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "‹ 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚 ›", url=f"https://t.me/yut70"),         
+                        text=config.CHANNEL_NAME, url=config.CHANNEL_LINK),         
                 ],
 
             ]
