@@ -11,7 +11,7 @@ async def must_join_channel(_, message):
         await message.reply(
             text=f"~ عزيزي المطور \n~ هذا هي قناة الاشتراك الاجباري @{Muntazer} .",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("~ 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚 .", url=link)]
+                [InlineKeyboardButton("• 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐚𝐫𝐢𝐧 🎧", url=f"https://t.me/SOURCELARIN")
             ])
         )
         
