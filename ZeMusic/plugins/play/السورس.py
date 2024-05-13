@@ -13,17 +13,17 @@ from ZeMusic import app
 from random import  choice, randint
                 
 @app.on_message(
-    command(["سورس","السورس"])
+  command(["سورس","تنصيب"," ","السورس"])
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/e8a2d9d266a52c1b2ca4f.jpg",
-        caption = f"""<b>⌯ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 . .<b>\n<a href='{config.CHANNEL_LINK}'>⌯ {config.CHANNEL_NAME}</a></b>""",
+        photo=f"https://graph.org/file/57036e277059ef8608dd3.jpg",
+        caption = f"""<b>  <b>\n<a href="https://t.me/SOURCELARIN"> ➮ 𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐚𝐫𝐢𝐧 🎧</a></b>""",
 reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text=config.CHANNEL_NAME, url=config.CHANNEL_LINK),         
+                        "• 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐚𝐫𝐢𝐧 🎧", url=f"https://t.me/SOURCELARIN"),         
                 ],
 
             ]
