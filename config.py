@@ -16,13 +16,13 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://abood:king@cluster0.rbp1cqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 480))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 720))
 
 # Chat id of a group for logging bot s activities
 LOGGER_ID = int(getenv("LOGGER_ID"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5145609515))
+OWNER_ID = int(getenv("OWNER_ID", 6811610440))
 
 ## Fill these variables if you re deploying on heroku.
 # Your heroku app name
@@ -39,9 +39,9 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-CHANNEL_NAME = getenv("CHANNEL_NAME", "❪ 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐢𝐦𝐚 ❫")
-CHANNEL_LINK = getenv("CHANNEL_LINK", "https://t.me/yut70")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/yua70")
+CHANNEL_NAME = getenv("CHANNEL_NAME", "• 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐚𝐫𝐢𝐧 🎧")
+CHANNEL_LINK = getenv("CHANNEL_LINK", "https://t.me/sourcelarin")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/sourcelarin")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
