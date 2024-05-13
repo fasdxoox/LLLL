@@ -30,6 +30,8 @@ from config import BANNED_USERS, lyrical
         [
             "play",
             "تشغيل",
+            "شغلي",
+            "لارين تشغيل",
             "شغل",
             "vplay",
             "vتشغيل",
