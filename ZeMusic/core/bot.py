@@ -8,7 +8,7 @@ from ..logging import LOGGER
 
 class Mody(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"يتم تشغيل البوت..")
+        LOGGER(__name__).info(f"يتم تشغيل البوت على سورس لارين..")
         super().__init__(
             name="ZeMusic",
             api_id=config.API_ID,
@@ -48,7 +48,7 @@ class Mody(Client):
                 "Please promote your bot as an admin in your log group/channel."
             )
             exit()
-        LOGGER(__name__).info(f"تم تسغيل {self.name} بنجاح..")
+        LOGGER(__name__).info(f"تم تشغيل {self.name} بنجاح..")
 
     async def stop(self):
         await super().stop()
