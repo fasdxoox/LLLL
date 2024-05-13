@@ -10,12 +10,12 @@ from ZeMusic.core.call import Mody
 
 @app.on_message(filters.video_chat_started)
 async def brah(_, msg):
-       await msg.reply("<b>‹ تم بدء المكالمه الصوتيه ›</b>")
+       await msg.reply("<b>• فتحناء المكالمه تعالو نتونس باصواتكم🦦</b>")
 
 
 @app.on_message(filters.video_chat_ended)
 async def brah2(_, msg):
-       await msg.reply("<b>‹ تم انهاء المكالمه الصوتيه ›</b>")
+       await msg.reply("<b>• قفلناء المكالمه اصواتكم تفتح النفس🦦</b>")
 
 
 @app.on_message(filters.video_chat_members_invited)
