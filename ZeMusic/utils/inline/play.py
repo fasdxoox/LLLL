@@ -84,8 +84,6 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="⋆ توقف ⋆", callback_data=f"ADMIN Stop|{chat_id}"),
         ],[
             InlineKeyboardButton(text=config.CHANNEL_NAME, url=config.CHANNEL_LINK)],
-        ],[
-            InlineKeyboardButton(text=config.CHANNEL_NAME, url=config.CHANNEL_LINK),
     ]
     return buttons
 
