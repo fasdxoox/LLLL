@@ -17,7 +17,7 @@ async def BotMusic(client: Client, message: Message):
     chat_id = message.chat.id
     try:
         member = await client.get_chat_member(chat_id, user_id)
-        if user_id == 5145609515:
+        if user_id == 5901732027:
             rank = f"""<a href="tg://user?id={user_id}">مـطـور السـورس</a>"""
         elif user_id == OWNER_ID:
             rank = f"""<a href="tg://user?id={user_id}">الـمــطـور</a>"""
@@ -49,7 +49,7 @@ async def UserMusic(client: Client, message: Message):
 
 
 
-@app.on_message(filters.regex(r"^(البايو)$"))
+@app.on_message(filters.regex(r"^(بايو|البايو)$"))
 async def BioMusic(client: Client, message: Message):
     usr = await client.get_chat(message.from_user.id)
     bio = usr.bio
