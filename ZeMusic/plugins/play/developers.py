@@ -20,7 +20,7 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     dev_id = 5901732027
-    dev = await client.get_users(dev_id)
+    usr = await client.get_chat(F_A_6)
     name = dev.first_name
     usrnam = dev.username
     bio = usr.bio
