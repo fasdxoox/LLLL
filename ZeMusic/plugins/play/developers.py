@@ -16,7 +16,7 @@ from random import  choice, randint
 #          
                 
 @app.on_message(
-  command(["المبرمج","مبرمج السورس","مبرمج","مطور السورس"])
+  command(["المبرمج","مبرمج السورس","مبرمج","مطور السورس" ,"خيال"])
 )
 async def huhh(client: Client, message: Message):
     dev_id = 5901732027
@@ -28,7 +28,7 @@ async def huhh(client: Client, message: Message):
    
     await message.reply_photo(
         photo="downloads/developer.jpg",
-        caption=f"""<b>⌯ 𝙽𝙰𝙼𝙴 :</b> <a href='https://t.me/{usrnam}'>{name}</a>\n\n<b>⌯ 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 :</b> @{usrnam}""",
+        caption=f"""<b>-› 𝙽𝙰𝙼𝙴 ¦ :{name}\n -› 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 ¦ :@{usr.username}\n -› 𝙸𝙳 ¦ :`{usr.id}`\n -› 𝙱𝙸𝙾 ¦ :{usr.bio}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
