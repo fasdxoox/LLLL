@@ -20,7 +20,7 @@ async def devid(client: Client, message: Message):
     usr = await client.get_chat(5901732027)
     name = usr.first_name
     usrnam = usr.username
-    uid = OWNER_ID
+    uid = 5901732027
     bio = usr.bio
     await app.download_media(usr.photo.big_file_id, file_name=os.path.join("downloads", "developer.jpg"))
        
