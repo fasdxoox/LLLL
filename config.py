@@ -79,6 +79,9 @@ lyrical = {}
 votemode = {}
 autoclean = []
 confirmer = {}
+chatstats = {}
+userstats = {}
+clean = {}
 
 
 START_IMG_URL = getenv("START_IMG_URL")
