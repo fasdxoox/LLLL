@@ -51,9 +51,9 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("EF_19")
-                await self.one.join_chat("jnssghb")
-                #await self.one.join_chat("BE_19")
+                await self.one.join_chat("K55DD")
+                await self.one.join_chat("K55DD")
+                #await self.one.join_chat("K55DD")
             except:
                 pass
             assistants.append(1)
@@ -73,8 +73,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("GY_19")
-                await self.two.join_chat("jnssghb")
+                await self.two.join_chat("K55DD")
+                await self.two.join_chat("K55DD")
             except:
                 pass
             assistants.append(2)
@@ -94,8 +94,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("EF_19")
-                await self.three.join_chat("jnssghb")
+                await self.three.join_chat("K55DD")
+                await self.three.join_chat("K55DD")
             except:
                 pass
             assistants.append(3)
@@ -115,8 +115,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("GY_19")
-                await self.four.join_chat("jnssghb")
+                await self.four.join_chat("K55DD")
+                await self.four.join_chat("K55DD")
             except:
                 pass
             assistants.append(4)
@@ -136,8 +136,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("EF_19")
-                await self.five.join_chat("jnssghb")
+                await self.five.join_chat("K55DD")
+                await self.five.join_chat("K55DD")
             except:
                 pass
             assistants.append(5)
