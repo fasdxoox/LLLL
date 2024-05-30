@@ -9,10 +9,11 @@ from pyrogram.errors import MessageNotModified
 from ZeMusic import app
 from config import OWNER_ID, LOGGER_ID
 import config
+from random import  choice, randint
 
 @app.on_message(command(["مطور", "المطور"]))
 async def devid(client: Client, message: Message):
-    usr = await client.get_users(OWNER_ID)
+    usr = await client.get_chat(OWNER_ID)
     name = usr.first_name
     usrnam = usr.username
     uid = OWNER_ID
@@ -20,7 +21,7 @@ async def devid(client: Client, message: Message):
        
     await message.reply_photo(
         photo="downloads/developer.jpg",
-        caption=f"""<b>-› 𝙽𝙰𝙼𝙴 ¦ :{name}\n -› 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 ¦ :@{usr.username}\n -› 𝙸𝙳 ¦ :`{usr.id}`\n -› 𝙱𝙸𝙾 ¦ :{usr.bio}""",
+        caption=f"""<b>-› 𝙽𝙰𝙼𝙴 ¦ :{name}\n -› 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 ¦ :@{usrnam}\n -› 𝙸𝙳 ¦ :`{uid}`\n -› 𝙱𝙸𝙾 ¦ :{bio}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
