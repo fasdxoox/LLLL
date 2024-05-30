@@ -100,7 +100,7 @@ class Userbot(Client):
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "『 تم تشغيل البوت على سورس الملك 』")
+                await self.three.send_message(config.LOGGER_ID, "『 تم تشغيل البوت على سورس لاريـن 』")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
