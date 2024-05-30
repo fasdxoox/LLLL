@@ -34,24 +34,44 @@ def stream_markup_timer(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-    if 0 < umm <= 10:
+    if 0 < umm <= 5:
         bar = "▁▄▂▇▄▅▄▅▃"
-    elif 10 < umm < 20:
+    elif 5 < umm < 10:
         bar = "▁▃▇▂▅▇▄▅▃"
-    elif 20 <= umm < 30:
+    elif 10 <= umm < 15:
         bar = "▃▁▇▂▅▃▄▃▅"
-    elif 30 <= umm < 40:
+    elif 15 <= umm < 20:
         bar = "▃▄▂▄▇▅▃▅▁"
-    elif 40 <= umm < 50:
+    elif 20 <= umm < 25:
         bar = "▁▃▄▂▇▃▄▅▃"
-    elif 50 <= umm < 60:
+    elif 25 <= umm < 30:
         bar = "▃▁▄▂▅▃▇▃▅"
-    elif 60 <= umm < 70:
+    elif 30 <= umm < 35:
         bar = "▁▇▄▂▅▄▅▃▄"
-    elif 70 <= umm < 80:
+    elif 35 <= umm < 40:
         bar = "▁▃▅▇▂▅▄▃▇"
-    elif 80 <= umm < 95:
+    elif 40 <= umm < 45:
         bar = "▃▅▂▅▇▁▄▃▁"
+    elif 45 < umm <= 50:
+        bar = "▁▄▂▇▄▅▄▅▃"
+    elif 50 < umm < 55:
+        bar = "▁▃▇▂▅▇▄▅▃"
+    elif 55 <= umm < 60:
+        bar = "▃▁▇▂▅▃▄▃▅"
+    elif 60 <= umm < 65:
+        bar = "▃▄▂▄▇▅▃▅▁"
+    elif 65 <= umm < 70:
+        bar = "▁▃▄▂▇▃▄▅▃"
+    elif 70 <= umm < 75:
+        bar = "▃▁▄▂▅▃▇▃▅"
+    elif 75 <= umm < 80:
+        bar = "▁▇▄▂▅▄▅▃▄"
+    elif 80 <= umm < 85:
+        bar = "▁▃▅▇▂▅▄▃▇"
+    elif 85 <= umm < 90:
+        bar = "▃▅▂▅▇▁▄▃▁"
+    elif 90 < umm < 95:
+        bar = "▁▃▇▂▅▇▄▅▃"
     else:
         bar = "▃▇▂▅▁▅▄▃▁"
     buttons = [
